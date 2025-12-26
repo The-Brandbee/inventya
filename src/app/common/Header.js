@@ -120,7 +120,7 @@ function IndexPage() {
       </ul>
     </li>
 
-    <li><Link href="#">For Businesses</Link>
+    <li className="nav_item dropdown"><Link href="#">For Businesses</Link>
 
       <ul className="dropdown_menu">
         <li><Link href="https://inventya.vercel.app/growth-advisory">Growth Advisory</Link></li>
@@ -130,7 +130,7 @@ function IndexPage() {
         <li><Link href="https://inventya.vercel.app/commercialisation-pathway">Commercialisation Pathways</Link></li>
       </ul>
     </li>
-    <li><Link href="#">For Universities</Link>
+    <li className="nav_item dropdown"><Link href="#">For Universities</Link>
       <ul className="dropdown_menu">
         <li><Link href="https://inventya.vercel.app/ip-commercialisation">IP Commercialisation</Link></li>
         <li><Link href="https://inventya.vercel.app/spinouts">Spinouts and Licensing</Link></li>
@@ -141,7 +141,7 @@ function IndexPage() {
       </ul>
     
     </li>
-    <li><Link href="#">Services</Link>
+    <li className="nav_item dropdown"><Link href="#">Services</Link>
     
       <ul className="dropdown_menu">
         <li><Link href="https://inventya.vercel.app/funding-investment">Investment & Funding</Link></li>
