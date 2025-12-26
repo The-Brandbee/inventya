@@ -26,6 +26,7 @@ h1,h2,h3,h4,h5,h6{
 .home_main_hero_section{
     width: 100%;
     position: relative;
+        overflow: initial !important;
 }
 
 .home_main_hero_video_box{
@@ -559,7 +560,7 @@ position: relative;
     align-items: center;
 }
 section{
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 
@@ -3126,6 +3127,47 @@ ease;
     font-size: 14px;
 }
 
+
+
+
+#mainHeaderNav .header_main_nav_list {
+
+}
+
+#mainHeaderNav .nav_item {
+  position: relative;
+}
+
+#mainHeaderNav .dropdown_menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #000;
+  padding: 15px 0;
+  width: 260px;
+  border-radius: 10px;
+  display: none;
+  z-index: 999;
+}
+
+#mainHeaderNav .dropdown_menu li {
+  padding: 8px 20px;
+}
+
+#mainHeaderNav .dropdown_menu li a {
+  color: #fff;
+  text-decoration: none;
+  
+  display: block;
+}
+
+#mainHeaderNav .dropdown_menu li a:hover {
+  color: #00c4cc;
+}
+
+#mainHeaderNav .nav_item:hover .dropdown_menu {
+  display: block;
+}
 
 
 @media (max-width: 600px) {

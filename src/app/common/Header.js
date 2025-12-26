@@ -88,20 +88,78 @@ function IndexPage() {
             </button>
 
             {/* Menu */}
-            <div className="collapse d-lg-block" id="mainHeaderNav">
-              <ul className="header_main_nav_list">
-                <li><a href="#">For Investors</a></li>
-                <li><a href="#">For Government</a></li>
-                <li><a href="#">For Businesses</a></li>
-                <li><a href="#">For Universities</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Impact</a></li>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Industries</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><button className="header_contact_btn">Contact Us</button></li>
-              </ul>
-            </div>
+<div className="collapse d-lg-block" id="mainHeaderNav">
+  <ul className="header_main_nav_list">
+
+    {/* For Investors */}
+    <li className="nav_item dropdown">
+      <Link href="https://inventya.vercel.app/empowering-investors">For Investors</Link>
+
+      <ul className="dropdown_menu">
+        <li><Link href="https://inventya.vercel.app/investable-innovation">Investment-ready Pipeline</Link></li>
+        <li><Link href="https://inventya.vercel.app/due-delligence">Due Diligence</Link></li>
+        <li><Link href="https://inventya.vercel.app/market-insight">Market Insights</Link></li>
+        <li><Link href="https://inventya.vercel.app/roi">ROI & Portfolio Success</Link></li>
+        <li><Link href="https://inventya.vercel.app/pe-vc-collaboration">PE/VC Collaborations</Link></li>
+        <li><Link href="https://inventya.vercel.app/investment-oportunity">Investment Opportunities</Link></li>
+        <li><Link href="#">Case Studies</Link></li>
+      </ul>
+    </li>
+
+    {/* For Government */}
+    <li className="nav_item dropdown">
+      <Link href="https://inventya.vercel.app/empowering-governments">For Government</Link>
+
+      <ul className="dropdown_menu">
+        <li><Link href="https://inventya.vercel.app/high-impact">High Impact Programmes</Link></li>
+        <li><Link href="https://inventya.vercel.app/economic-development">Economic Development Support</Link></li>
+        <li><Link href="https://inventya.vercel.app/grant-management">Grant Management</Link></li>
+        <li><Link href="https://inventya.vercel.app/tender-management">Tender Management</Link></li>
+        <li><Link href="https://inventya.vercel.app/commercialisation-trining">Commercialisation Training</Link></li>
+        <li><Link href="https://inventya.vercel.app/secondary-funding">Secondary/Cascade Funding</Link></li>
+      </ul>
+    </li>
+
+    <li><Link href="#">For Businesses</Link>
+
+      <ul className="dropdown_menu">
+        <li><Link href="https://inventya.vercel.app/growth-advisory">Growth Advisory</Link></li>
+        <li><Link href="https://inventya.vercel.app/innovation-funding">Innovation Funding</Link></li>
+        <li><Link href="https://inventya.vercel.app/r-d-tax">R&D Tax Credits</Link></li>
+        <li><Link href="https://inventya.vercel.app/patent-box">Patent Box</Link></li>
+        <li><Link href="https://inventya.vercel.app/commercialisation-pathway">Commercialisation Pathways</Link></li>
+      </ul>
+    </li>
+    <li><Link href="#">For Universities</Link>
+      <ul className="dropdown_menu">
+        <li><Link href="https://inventya.vercel.app/ip-commercialisation">IP Commercialisation</Link></li>
+        <li><Link href="https://inventya.vercel.app/spinouts">Spinouts and Licensing</Link></li>
+        <li><Link href="https://inventya.vercel.app/research-funding">Research Funding</Link></li>
+        <li><Link href="https://inventya.vercel.app/partnership">Partnerships</Link></li>
+        <li><Link href="https://inventya.vercel.app/consortium">Consortium Building</Link></li>
+        <li><Link href="https://inventya.vercel.app/industry-collaboration">Industry Collaboration</Link></li>
+      </ul>
+    
+    </li>
+    <li><Link href="#">Services</Link>
+    
+      <ul className="dropdown_menu">
+        <li><Link href="https://inventya.vercel.app/funding-investment">Investment & Funding</Link></li>
+        <li><Link href="#">Advisory & Programmes</Link></li>
+        <li><Link href="#">Innovation & Commercialisation</Link></li>
+        <li><Link href="#">Government & Public Sector Support</Link></li>
+      </ul>
+    </li>
+    <li><Link href="#">Impact</Link></li>
+    <li><Link href="#">Company</Link></li>
+    <li><Link href="#">Industries</Link></li>
+
+    <li>
+      <button className="header_contact_btn">Contact Us</button>
+    </li>
+  </ul>
+</div>
+
 
           </div>
         </div>
@@ -110,4 +168,4 @@ function IndexPage() {
   );
 }
 
-export default IndexPage;     
+export default IndexPage;
