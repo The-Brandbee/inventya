@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
-
+import HeaderMobileIn from "../common/HeaderMobile.js"; 
 
 
 
@@ -78,14 +78,7 @@ function IndexPage() {
           <div className="col-lg-9 col-md-9 col-sm-6 col-6">
 
             {/* Mobile Toggler */}
-            <button
-              className="header_nav_toggler d-inline-block d-lg-none"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#mainHeaderNav"
-            >
-              <Image src="/menu.png" alt="menu" width={22} height={22} />
-            </button>
+           <HeaderMobileIn/>
 
             {/* Menu */}
 <div className="collapse d-lg-block" id="mainHeaderNav">
