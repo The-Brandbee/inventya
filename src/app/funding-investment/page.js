@@ -167,7 +167,7 @@ export default function Arfactoring() {
         We help businesses leverage government-backed incentives that reward
         innovation and protect long-term competitiveness.
       </p>
-      <div className="rd-cards">
+      <div className="finance-scroll">
         <div className="rd-card">
           <h4>Eligibility Assessment</h4>
           <p>Identify qualifying activities and eligible expenditure.</p>
