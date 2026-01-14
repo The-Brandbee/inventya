@@ -5,16 +5,10 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../common/Header.js";
 import HeaderMobileIn from "../common/HeaderMobile.js";
-
-
 import Footer from "../common/Footer.js";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
-
-
-
 
 
 export default function Arfactoring() {
@@ -40,7 +34,7 @@ export default function Arfactoring() {
        
 
      <>
-  <section className="prime-hero">
+  <section className="prime-hero funding-investment">
     <div className="prime-content">
       <h1 className="prime-title animate-move">
         Funding{" "}

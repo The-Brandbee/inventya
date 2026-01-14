@@ -40,7 +40,7 @@ export default function Arfactoring() {
        
 
      <>
- <section className="prime-hero">
+ <section className="prime-hero government-public-sector-support">
   <div className="prime-content">
     <h1 className="prime-title animate-move">
       Government &amp; <br />

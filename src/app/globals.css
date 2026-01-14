@@ -824,6 +824,18 @@ display: none;
 /* ------------------------------------
    PRIME HERO SECTION (New Class Names)
 ------------------------------------ */
+.prime-hero.funding-investment{
+ background-image: url("../app/img/Funding.jpg");
+}
+.prime-hero.advisory-programmes{
+background-image: url("../app/img/Advisory.jpg");
+}
+.prime-hero.innovation-commercialisation{
+   background-image: url("../app/img/Innovation.jpg"); 
+}
+.prime-hero.government-public-sector-support{
+background-image: url("../app/img/Government.jpg"); 
+}
 .prime-hero {
     height: 100vh;
     background-image: url("../app/img/fifthpage/financial-growth-chart-stock-market-investment-trading.png");
