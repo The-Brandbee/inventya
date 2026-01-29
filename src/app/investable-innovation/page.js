@@ -41,7 +41,7 @@ export default function Arfactoring() {
 
  <>
   {/* ===== INVESTABLE INNOVATION SECTION ===== */}
-  <section className="innovation-section">
+  <section className="innovation-section" style={{backgroundImage: "url('/Investment-Opportunities/banner.jpg')",}}>
     <div className="innovation-overlay" />
     <div className="innovation-container">
       <div className="max-w-lg">
@@ -118,7 +118,7 @@ export default function Arfactoring() {
           {/* CARD 1 */}
           <div className="service-card">
             <img
-              src="/innovation/business-men-shaking-hands-with-collaboration-conference-room-deal-partnership-teamwork-woman-meeting-office-brainstorming-strategy-planning-project-n.png"
+              src="/Investment-Opportunities/1.jpg"
               alt=""
             />
             <h3>Deal Flow Curation</h3>
@@ -130,7 +130,7 @@ export default function Arfactoring() {
           {/* CARD 2 */}
           <div className="service-card">
             <img
-              src="/innovation/business-people-group-brainstorm-office-meeting.png"
+              src="/Investment-Opportunities/2.jpg"
               alt=""
             />
             <h3>Due Diligence Support</h3>
@@ -142,7 +142,7 @@ export default function Arfactoring() {
           {/* CARD 3 */}
           <div className="service-card">
             <img
-              src="/innovation/business-people-working-with-ipad-high-angle.png"
+              src="/Investment-Opportunities/3.jpg"
               alt=""
             />
             <h3>Strategic Positioning</h3>

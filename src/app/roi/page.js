@@ -39,7 +39,7 @@ export default function Arfactoring() {
        </header> 
   <>
   {/* ===== INVESTABLE INNOVATION SECTION ===== */}
-  <section className="innovation-section">
+  <section className="innovation-section" style={{backgroundImage: "url('/ROI-Portfolio-Success/banner.jpg')",}}>
     <div className="innovation-overlay" />
     <div className="innovation-container">
       <div className="max-w-lg">
@@ -115,7 +115,7 @@ export default function Arfactoring() {
           {/* CARD 1 */}
           <div className="service-card">
             <img
-              src="/innovation/business-men-shaking-hands-with-collaboration-conference-room-deal-partnership-teamwork-woman-meeting-office-brainstorming-strategy-planning-project-n.png"
+              src="/ROI-Portfolio-Success/1.jpg"
               alt=""
             />
             <h3>Portfolio Health Analysis</h3>
@@ -127,7 +127,7 @@ export default function Arfactoring() {
           {/* CARD 2 */}
           <div className="service-card">
             <img
-              src="/innovation/business-people-group-brainstorm-office-meeting.png"
+              src="/ROI-Portfolio-Success/2.jpg"
               alt=""
             />
             <h3>Return Optimisation Strategies</h3>
@@ -139,9 +139,9 @@ export default function Arfactoring() {
           {/* CARD 3 */}
           <div className="service-card">
             <img
-              src="/innovation/business-people-working-with-ipad-high-angle.png"
+              src="/ROI-Portfolio-Success/3.jpg"
               alt=""
-            />
+            /> 
             <h3>Performance Reporting &amp; Visualisation</h3>
             <p>
               Deliver real-time insights through clear dashboards and
@@ -150,7 +150,7 @@ export default function Arfactoring() {
           </div>
           <div className="service-card">
             <img
-              src="/innovation/business-people-working-with-ipad-high-angle.png"
+              src="/ROI-Portfolio-Success/3.jpg"
               alt=""
             />
             <h3>Sustainability &amp; Impact Metrics</h3>

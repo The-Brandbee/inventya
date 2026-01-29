@@ -41,7 +41,7 @@ export default function Arfactoring() {
 
 <>
   {/* ===== INVESTABLE INNOVATION SECTION ===== */}
-  <section className="innovation-section">
+  <section className="innovation-section" style={{backgroundImage: "url('/Economic-Development-Support/banner.jpg')",}}>
     <div className="innovation-overlay" />
     <div className="innovation-container">
       <div className="max-w-lg">

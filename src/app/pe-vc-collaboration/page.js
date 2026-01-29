@@ -39,7 +39,7 @@ export default function Arfactoring() {
        </header> 
   <>
   {/* ===== INVESTABLE INNOVATION SECTION ===== */}
-  <section className="innovation-section">
+  <section className="innovation-section" style={{backgroundImage: "url('/PE-VC-Collaborations/banner.jpg')",}}>
     <div className="innovation-overlay" />
     <div className="innovation-container">
       <div className="max-w-lg">
@@ -115,7 +115,7 @@ export default function Arfactoring() {
           {/* CARD 1 */}
           <div className="service-card">
             <img
-              src="/innovation/business-men-shaking-hands-with-collaboration-conference-room-deal-partnership-teamwork-woman-meeting-office-brainstorming-strategy-planning-project-n.png"
+              src="/PE-VC-Collaborations/1.jpg"
               alt=""
             />
             <h3>Co-Investment Networks</h3>
@@ -127,7 +127,7 @@ export default function Arfactoring() {
           {/* CARD 2 */}
           <div className="service-card">
             <img
-              src="/innovation/business-people-group-brainstorm-office-meeting.png"
+              src="/PE-VC-Collaborations/2.jpg"
               alt=""
             />
             <h3>Strategic Syndication Advisory</h3>
@@ -139,7 +139,7 @@ export default function Arfactoring() {
           {/* CARD 3 */}
           <div className="service-card">
             <img
-              src="/innovation/business-people-working-with-ipad-high-angle.png"
+              src="/PE-VC-Collaborations/3.jpg"
               alt=""
             />
             <h3>Investor Intelligence Sharing</h3>
@@ -150,7 +150,7 @@ export default function Arfactoring() {
           </div>
           <div className="service-card">
             <img
-              src="/innovation/business-people-working-with-ipad-high-angle.png"
+              src="/PE-VC-Collaborations/3.jpg"
               alt=""
             />
             <h3>Post-Investment Collaboration Support</h3>

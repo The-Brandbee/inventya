@@ -35,11 +35,11 @@ export default function Arfactoring() {
 
         <header>
           <Header />
-
+ 
        </header> 
   <>
   {/* ===== INVESTABLE INNOVATION SECTION ===== */}
-  <section className="innovation-section">
+  <section className="innovation-section" style={{backgroundImage: "url('/Market-Insights/banner.jpg')",}}>
     <div className="innovation-overlay" />
     <div className="innovation-container">
       <div className="max-w-lg">
@@ -116,7 +116,7 @@ export default function Arfactoring() {
           {/* CARD 1 */}
           <div className="service-card">
             <img
-              src="/innovation/business-men-shaking-hands-with-collaboration-conference-room-deal-partnership-teamwork-woman-meeting-office-brainstorming-strategy-planning-project-n.png"
+              src="/Market-Insights/1.jpg"
               alt=""
             />
             <h3>Sector Intelligence Reports</h3>
@@ -129,7 +129,7 @@ export default function Arfactoring() {
           {/* CARD 2 */}
           <div className="service-card">
             <img
-              src="/innovation/business-people-group-brainstorm-office-meeting.png"
+              src="/Market-Insights/2.jpg"
               alt=""
             />
             <h3>Competitive Landscape Assessment</h3>
@@ -141,7 +141,7 @@ export default function Arfactoring() {
           {/* CARD 3 */}
           <div className="service-card">
             <img
-              src="/innovation/business-people-working-with-ipad-high-angle.png"
+              src="/Market-Insights/3.jpg"
               alt=""
             />
             <h3>Technology and Trend Forecasting</h3>
@@ -153,7 +153,7 @@ export default function Arfactoring() {
           </div>
           <div className="service-card">
             <img
-              src="/innovation/business-people-working-with-ipad-high-angle.png"
+              src="/Market-Insights/3.jpg"
               alt=""
             />
             <h3>Market Opportunity Sizing</h3>
